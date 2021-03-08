@@ -15,7 +15,7 @@ public class GerenciadorDriver {
 
     private static WebDriver driver;
 
-    public static WebDriver pegarGerenciadorDriver(TipoDriver navegador) {
+    private static WebDriver pegarGerenciadorDriver(TipoDriver navegador) {
 
         switch (navegador) {
 
